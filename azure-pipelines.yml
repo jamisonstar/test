@@ -14,7 +14,7 @@ variables:
 
 steps:
 - script:
-  echo $(h11)
+    echo $(h11)
   displayName: 'Run a one-line script'
 
 - script: |
