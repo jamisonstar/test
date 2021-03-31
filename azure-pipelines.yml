@@ -9,12 +9,9 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
-variables:
-  h11: $(hi)
-
 steps:
 - script:
-    echo $(h11)
+    echo $(hi)
   displayName: 'Run a one-line script'
 
 - script: |
