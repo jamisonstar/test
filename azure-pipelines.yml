@@ -11,7 +11,7 @@ pool:
 
 steps:
 - script:
-  echo $(HI)
+  echo hi
   displayName: 'Run a one-line script'
 
 - script: |
